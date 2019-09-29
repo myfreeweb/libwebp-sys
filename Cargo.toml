@@ -2,7 +2,7 @@
 name = "libwebp-sys"
 version = "0.1.1"
 authors = [ "Greg V <greg@unrelenting.technology>" ]
-keywords = [ "WebP", "Image", "Picture", "Photo", "Codec", "Decoder", "Encoder" ]
+keywords = [ "WebP", "Image", "Picture", "Photo", "Codec" ]
 description = "Bindings to libwebp (bindgen, static linking)"
 license = "BSD"
 readme = "README.md"
