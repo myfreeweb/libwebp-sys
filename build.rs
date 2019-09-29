@@ -12,7 +12,6 @@ fn main() {
     println!("cargo:rustc-link-lib=static=webp");
 
     let bindings = Builder::default()
-        .no_unstable_rust()
         .header("wrapper.h")
         .trust_clang_mangling(false)
         .generate()
