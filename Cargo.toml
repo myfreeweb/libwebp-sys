@@ -11,5 +11,5 @@ repository = "https://github.com/myfreeweb/libwebp-sys"
 build = "build.rs"
 
 [build-dependencies]
-bindgen = { git = "https://github.com/servo/rust-bindgen" }
+bindgen = "0.50"
 cmake = "0.1"
